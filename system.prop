@@ -120,3 +120,14 @@ persist.timed.enable=true
 
 # WIFI
 wifi.interface=wlan0
+
+# Safetynet
+ro.boot.verifiedbootstate=green
+ro.boot.flash.locked=1
+ro.boot.veritymode=enforcing
+ro.boot.warranty_bit=0
+ro.warranty_bit=0
+ro.debuggable=0
+ro.secure=1
+ro.boot.secboot=enabled
+ro.boot.enable_dm_verity=1
